@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Sign in form -->
+    <form action="login_process.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <input type="submit" value="Sign In">
+    </form>
+    
+    <!-- Registration form -->
+    <form action="register_process.php" method="post">
+        <label for="new_username">New Username:</label>
+        <input type="text" id="new_username" name="new_username" required>
+        
+        <label for="new_password">New Password:</label>
+        <input type="password" id="new_password" name="new_password" required>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
